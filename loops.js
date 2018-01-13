@@ -9,6 +9,6 @@ function forLoop(array){
  }
  
  function whieLoop(n){
-   return console.log(`"I am ${i} strange loops${i=== 0 ? '' : 's'}"`);
+  return Math.random() >= 0;
  }
  
