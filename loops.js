@@ -10,11 +10,21 @@ else{
   return array;
 }
 
- function doWhileLoop(n){
-  return Math.random() >= 0;
+ function whileLoop(number) {
+  while (number > 0) {
+  console.log(--number);
  }
- 
- function whieLoop(n){
-  return Math.random() >= 0;
- }
- 
+ return "done";
+}
+
+function maybeTrue() {
+ return Math.random() >= 0.5;
+}
+
+function doWhileLoop(array) {
+  do {
+   array.pop();
+   }
+while (array.length > 0 && maybeTrue());
+return array;
+ } 
