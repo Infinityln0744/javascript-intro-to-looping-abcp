@@ -1,2 +1,2 @@
-function forLoop(){
+function forLoop(array){
 }
