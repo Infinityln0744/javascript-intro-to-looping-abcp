@@ -8,7 +8,7 @@ function forLoop(array){
   return Math.random() >= 0;
  }
  
- whie (doWhileLoop(array)){
+ function whieLoop (doWhileLoop(array)){
    console.log(`"I am ${i} strange loops${i=== 0 ? '' : 's'}"`);
  }
  
